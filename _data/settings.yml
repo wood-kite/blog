@@ -1,0 +1,45 @@
+#-------------------------------
+# General Site Settings
+title: AIlifelab.org
+logo:  logo-title.png # You can add own logo.
+description: 机械/电子/计算机
+
+
+#-------------------------------
+# Author Settings
+author:
+  name: R. Woodkite Lee
+  image: 
+  say-hello: Hello, I’m <strong>R. Woodkite</strong>
+  bio: Write about Designs, Mechanical & Information Technology. I share learning, designing, free resources and inspiration. Loves music & swimming.
+
+
+#-------------------------------
+# Contact links
+home: https://ailifelab.org
+# twitter: https://twitter.com/ # Add your Twitter handle
+# facebook: https://facebook.com/ # Add your Facebook handle
+# dribbble: https://dribbble.com/ # Add your Dribbble handle
+# instagram: https://instagram.com/ # Add your Instagram handle
+# pinterest: https://pinterest.com/ # Add your Pinterest handle
+youtube: https://www.youtube.com/channel/UCYWvGg55UXWUc6SpDELqNjQ
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: r.woodkite # add your shortname for Disqus Comment. For example mr-brown
+
+
+#-------------------------------
+# Instagram Feed
+instafeed: false # To enable the instafeed, use the value true. To turn off use the value false.
+instagram-profile: _ # Add instagram username
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1.
+
+
+#-------------------------------
+# Newsletter
+mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
