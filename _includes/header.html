@@ -5,9 +5,9 @@
       <header class="header">
 
         <div class="logo">
-          <a class="logo__link" href="{{site.baseurl}}/">
+          <a class="logo__link" href="{{site.url}}/">
           {%if site.data.settings.logo %}
-            <img class="logo__image" src="{{ site.baseurl }}/images/{{ site.data.settings.logo }}" alt="{{ site.data.settings.title }}">
+            <img class="logo__image" src="{{ site.url }}/images/{{ site.data.settings.logo }}" alt="{{ site.data.settings.title }}">
           {% else %}
             {{ site.data.settings.title }}
           {% endif %}
@@ -25,13 +25,13 @@
 
             <ul class="nav__list list-reset">
               <li class="nav__item">
-                <a href="{{site.baseurl}}/" class="nav__link">Home</a>
+                <a href="{{site.url}}/" class="nav__link">Home</a>
               </li>
               {% for page in site.pages %}
                 {% unless page.name == 'tags.html' or page.name == '404.html' %}
               {% if page.title %}
               <li class="nav__item">
-                <a href="{{ page.url | prepend: site.baseurl }}" class="nav__link">{{ page.title }}</a>
+                <a href="{{ page.url | prepend: site.url }}" class="nav__link">{{ page.title }}</a>
               </li>
               {% endif %}
                 {% endunless %}

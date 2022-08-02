@@ -21,11 +21,9 @@ defaults:
     values:
       permalink: /:basename:output_ext
 
-include:
-  - _pages
+include: [_pages]
 
-exclude: 
-  - design
+exclude: [design]
 
 # Tags
 tag_page_dir:         tag
